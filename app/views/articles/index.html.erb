@@ -8,7 +8,7 @@
         <div class="col-8 mt-4">
             <div class="card text-center shadow mb-5 bg-white rounded">
                 <h5 class="card-header shadow p-3 mb-5 bg-white rounded font-italic">
-                    by Vasyl Yatsyshyn
+                    by <%= article.user.username if article.user %>
                 </h5>
                 <div class="card-body">
                 <h5 class="card-title"><%=link_to  article.title, article_path(article), class: 'text-success' %></h5>
