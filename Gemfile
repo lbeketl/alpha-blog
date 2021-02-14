@@ -9,7 +9,8 @@ gem 'rails', '~> 6.1.1'
 # gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'bootstrap-sass',             '3.4.1'
-gem 'bootstrap-will_paginate',    '1.0.0'
+# gem 'bootstrap-will_paginate',    '1.0.0'
+gem 'will_paginate', '~> 3.1.0'
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
